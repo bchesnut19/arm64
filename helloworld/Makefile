@@ -1,0 +1,4 @@
+make:
+	as -o HelloWorld.o HelloWorld.S
+	ld -o HelloWorld HelloWorld.o
+	
